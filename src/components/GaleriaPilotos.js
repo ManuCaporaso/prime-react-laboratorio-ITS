@@ -10,6 +10,16 @@ import Alonso from '../assets/images/pilotos/feralo01.png';
 import Hulkemberg from '../assets/images/pilotos/nichul01.png';
 import Stroll from '../assets/images/pilotos/lanstr01.png';
 import Tsunoda from '../assets/images/pilotos/yuktsu01.png';
+import Albon from '../assets/images/pilotos/alealb01.png';
+import Ricciardo from '../assets/images/pilotos/danric01.png';
+import Gasly from '../assets/images/pilotos/piegas01.png';
+import Bearman from '../assets/images/pilotos/olibea01.png';
+import Magnussen from '../assets/images/pilotos/kevmag01.png';
+import Ocon from '../assets/images/pilotos/estoco01.png';
+import Colapinto from '../assets/images/pilotos/fracol01.png';
+import Zhou from '../assets/images/pilotos/guazho01.png';
+import Sargent from '../assets/images/pilotos/logsar01.png';
+import Bottas from '../assets/images/pilotos/valbot01.png';
 
 
 
@@ -26,7 +36,17 @@ const GaleriaPilotos = {
   Alonso,
   Hulkemberg,
   Stroll,
-  Tsunoda
+  Tsunoda,
+  Albon,
+  Ricciardo,
+  Gasly,
+  Bearman,
+  Magnussen,
+  Ocon,
+  Colapinto,
+  Zhou,
+  Sargent,
+  Bottas
 };
 
 export default GaleriaPilotos;
