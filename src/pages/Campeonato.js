@@ -1,9 +1,10 @@
 import React from 'react';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
+import GaleriaPilotos from '../components/GaleriaPilotos';
 
 const datosCampeonato = [
-  { posicion: 1, numero: 44, nombre: 'Lewis', apellido: 'Hamilton', escuderia: '/path/to/mercedes-logo.png', imagen: '/path/to/hamilton.jpg', puntos: 300 },
+  { posicion: 1, numero: 44, nombre: 'Lewis', apellido: 'Hamilton', escuderia: '/path/to/mercedes-logo.png', imagen: GaleriaPilotos.Verstappen, puntos: 300 },
   { posicion: 2, numero: 33, nombre: 'Max', apellido: 'Verstappen', escuderia: '/path/to/redbull-logo.png', imagen: '/path/to/verstappen.jpg', puntos: 290 },
   // Agrega más datos aquí
 ];
@@ -18,7 +19,7 @@ const Campeonato = () => {
         <Column field="nombre" header="Nombre" />
         <Column field="apellido" header="Apellido" />
         <Column body={rowData => <img src={rowData.escuderia} alt="Escudería" />} header="Escudería" />
-        <Column body={rowData => <img src={rowData.imagen} alt="Piloto" />} header="Piloto" />
+        <Column body={rowData => <img className='img-calendario' src={rowData.imagen} alt="Piloto" />} header="Piloto" />
         <Column field="puntos" header="Puntos" />
       </DataTable>
     </div>

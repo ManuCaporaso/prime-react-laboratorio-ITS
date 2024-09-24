@@ -1,12 +1,21 @@
 .home-page, .pilotos-page, .campeonato-page {
   padding: 20px;
   text-align: center;
+  background-color: red;
 }
 
 .pilotos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+}
+
+.img-piloto{
+  width: 250px;
+}
+
+.img-calendario{
+  width: 100px;
 }
 
 @media (max-width: 768px) {
