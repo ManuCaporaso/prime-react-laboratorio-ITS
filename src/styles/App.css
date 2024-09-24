@@ -1,0 +1,17 @@
+.home-page, .pilotos-page, .campeonato-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.pilotos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
+}
