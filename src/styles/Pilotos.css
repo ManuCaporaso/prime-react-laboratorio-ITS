@@ -1,0 +1,72 @@
+.pilotos-page {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .pilotos-page h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .pilotos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .p-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .p-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .img-piloto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .p-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #222;
+    margin-top: 1rem;
+  }
+  
+  .p-card-subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .p-card-footer {
+    text-align: center;
+  }
+  
+  .p-button {
+    background-color: #ef5350;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .p-button:hover {
+    background-color: #d32f2f;
+  }
+  

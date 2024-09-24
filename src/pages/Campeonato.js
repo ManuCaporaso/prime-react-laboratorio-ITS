@@ -3,6 +3,7 @@ import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import GaleriaPilotos from '../components/GaleriaPilotos';
 import GaleriaEscuderias from '../components/GaleriaEscuderias';
+import '../styles/Campeonato.css'
 
 const datosCampeonato = [
   { posicion: 1, numero: 1, nombre: 'Max', apellido: 'Verstapen', escuderia: GaleriaEscuderias.RedBull, imagen: GaleriaPilotos.Verstappen, puntos: 331 },

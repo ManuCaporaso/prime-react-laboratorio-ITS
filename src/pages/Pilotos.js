@@ -2,6 +2,7 @@ import React from 'react';
 import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 import GaleriaPilotos from '../components/GaleriaPilotos';
+import '../styles/Pilotos.css'
 
 const pilotos = [
   { nombre: 'Lewis Hamilton', numero: "1", edad: 36, equipo: 'Mercedes', imagen: GaleriaPilotos.Verstappen },
