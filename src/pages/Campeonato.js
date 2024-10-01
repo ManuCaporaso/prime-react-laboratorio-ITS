@@ -35,7 +35,7 @@ const datosCampeonato = [
 const Campeonato = () => {
   return (
     <div className="campeonato-page">
-      <h2>Clasificación del Campeonato</h2>
+      <h2>Clasificación del Campeonato 2024</h2>
       <DataTable value={datosCampeonato} responsiveLayout="scroll">
         <Column field="posicion" header="Posición" />
         <Column field="numero" header="Número Auto" />
